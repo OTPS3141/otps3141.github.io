@@ -1,0 +1,63 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .logo {
+      position: absolute;
+      top: 0px; left: 0px; width: 4ex;
+      font-size: 200px;
+      background-color: white;
+      transform: rotate(0deg);
+      transform-origin: 2ex 1ex;
+      transition: transform 2s;
+      }
+
+      .logo:hover {
+        transform: rotate(360deg);
+        transition: transform 10s;
+      }
+
+    .figure {
+      float: left;
+      padding: 0.4rem;
+      margin-right: 1rem;
+      background-color: whitey;
+      box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+      font-size: 0.5rem;
+      width: 40%;
+    }
+    .figure img {
+      max-width: 100%;
+    }
+
+    .slide {
+      position: absolute;
+      top: 50ex;
+      width: 200px;
+      height: 0px;
+      border-style: solid;
+      overflow: hidden;
+      transition: linear height 0.2s;
+    }
+    .slide:hover {
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    ETH
+  </div>
+
+  <div class="slide">
+    Some Text To Slide Some Text To Slide Some Text To Slide Some Text To Slide Some Text To Slide Some Text To Slide
+
+  </div>
+
+</body>
+</html>
